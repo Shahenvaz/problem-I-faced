@@ -1,0 +1,12 @@
+PROBLEM :nodemon : File C:\Users\ABU HAMZA\AppData\Roaming\npm\nodemon.ps1 cannot be loaded because running scripts is disabled on 
+this system
+
+Salution:
+Open Windows PowerShell with Run As Administrator.
+Type Get-ExecutionPolicy
+After pressing enter I see Restricted.
+Now type 
+Set-ExecutionPolicy Unrestricted
+Atlast type Get-ExecutionPolicy 
+it will change to unristricted.
+so and again run nodemon filename it will work
