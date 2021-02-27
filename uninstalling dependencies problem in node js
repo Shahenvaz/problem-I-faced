@@ -1,6 +1,6 @@
 PROBLEM:-When I run the command npm unistall nodemon it shows the error dependency not found or error like err...
 
-SALUTION:-delete package-lock.json and node_modules
+SOLUTION:-delete package-lock.json and node_modules
 open terminal if you are using vs code just go to terminal and click New Terminal or if you are not using it then open cmd(command prompt) locate it to your project and run the command
 npm install
 this will surely fixes the issue 
